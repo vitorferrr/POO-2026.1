@@ -1,6 +1,6 @@
 public class Retangulo {
-    int lado1;
-    int lado2;
+    double lado1;
+    double lado2;
 
     double area(){
         return lado1*lado2;
