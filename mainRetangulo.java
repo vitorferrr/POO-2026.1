@@ -13,6 +13,7 @@ public class mainRetangulo {
         r1.lado2 = sc.nextDouble(); */
 
         Retangulo r1 = new Retangulo(4, 5);
+        Retangulo r2 = new Retangulo();
 
         System.out.println("A área desse retângulo é " + r1.area());
         System.out.println("O perímetro desse retângulo é " + r1.perimetro());
