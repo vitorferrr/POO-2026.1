@@ -1,6 +1,10 @@
 public class Circulo 
 {
-    int raio;
+    double raio;
+
+    Circulo (double r) {
+        raio = r;
+    }
 
     double area() {
         return 3.1415 * raio * raio;
