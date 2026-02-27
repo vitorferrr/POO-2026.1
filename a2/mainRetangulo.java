@@ -1,3 +1,4 @@
+package a2;
 import java.util.Scanner;
 
 public class mainRetangulo {

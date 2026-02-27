@@ -1,3 +1,4 @@
+package a2;
 public class Retangulo {
     double altura;
     double base;
