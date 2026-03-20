@@ -28,5 +28,7 @@ public class main {
         func.setMatricula(567);
 
         System.out.println(func);
+
+        sc.close();
     }
 }

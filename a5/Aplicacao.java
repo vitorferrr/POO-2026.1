@@ -21,6 +21,8 @@ public class Aplicacao {
 
         PessoaJuridica pj = new PessoaJuridica(nome, idade, info);
         imprime(pj);
+
+        sc.close();
     }
 
     public static void imprime(Pessoa p){
