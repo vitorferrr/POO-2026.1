@@ -1,4 +1,4 @@
-package a8;
+package a8.exe1;
 
 import java.util.UUID;
 
@@ -44,4 +44,9 @@ public abstract class Funcionario {
     }
 
     public abstract void aumentaSalario();
+
+    public void exibirDados() {
+        System.out.println("Nome: " + nome);
+        System.out.println("Salário: " + salario);
+    }
 }
